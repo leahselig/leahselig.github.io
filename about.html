@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- Bootstrap Link Version 5.2-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+
+    <!--Icons Link-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/d6fac45a8d.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--My CSS File-->
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <title>Leah Selig</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="menu-btn">
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+      </div>
+
+      <nav class="menu">
+        <div class="menu-branding">
+          <div class="portrait"></div>
+        </div>
+        <ul class="menu-nav">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link"> Home </a>
+          </li>
+          <li class="nav-item current">
+            <a href="about.html" class="nav-link"> About Me </a>
+          </li>
+          <li class="nav-item">
+            <a href="projects.html" class="nav-link"> Projects </a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link"> Contact </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="about">
+      <h1 class="lg-heading">About Me</h1>
+      <h2 class="sm-heading">Let me tell you a few things...</h2>
+      <div class="about-info">
+        <img src="img/portrait1.jpg" alt="Leah Selig" class="bio-image" />
+
+        <div class="bio">
+          <h3 class="text-secondary"></h3>
+          <p>
+            Hi! My name is Leah Selig and I'm an ambitious Full-Stack Developer
+            in training. I have always had a love of technology, but my younger
+            self never thought about a career in it. I pursued a bachelor's
+            degree in Animal Behavior and then fell into a few jobs involving
+            operations and project management, one being at a tech company.
+            Those roles developed strong skills in customer service,
+            organization, and the ability to adapt in both self-starting and
+            collaborative environments while staying focused on achieving
+            high-quality results under strict deadlines. I've enjoyed the
+            challenges of learning something new and I'm eager to tackle web
+            development to achieve lasting impacts on user experience.
+          </p>
+          <p>
+            Im currently enrolled in MIT xPRO's Full-Stack Web Development
+            Course learning the MERN stack. Check out my projects page to see
+            the fun stuff I'm working on.
+          </p>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube-nocookie.com/embed/7Bp-k7yN1tU"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+
+        <div class="skill skill-1">
+          <h3>Visit my contact page to connect or click the icons below!</h3>
+          <p></p>
+          <div class="icons">
+            <a href="mailto:lselig444@gmail.com">
+              <i class="fa-solid fa-envelope fa-2x"></i>
+            </a>
+            <a href="https://github.com/leahselig">
+              <i class="fab fa-github fa-2x"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/leah-selig">
+              <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+            <a href="https://twitter.com/penguingirl4444">
+              <i class="fab fa-twitter fa-2x"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- This is where I used Bootstrap to create custom progress bars for my skills section. I will update the percentages as I progress through the course. -->
+        <div class="skill skill-2">
+          <div class="vstack gap-3">
+            <h3>My Skills So Far:</h3>
+            <div class="progress" style="height: 20px">
+              <div
+                class="progress-bar progress-bar-striped progress-bar-animated bg-info text-start fw-semibold"
+                role="progressbar"
+                aria-valuenow="90"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="width: 90%"
+              >
+                HTML
+              </div>
+            </div>
+            <div class="progress" style="height: 20px">
+              <div
+                class="progress-bar progress-bar-striped progress-bar-animated bg-info text-start fw-semibold"
+                role="progressbar"
+                aria-valuenow="80"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="width: 80%"
+              >
+                CSS
+              </div>
+            </div>
+            <div class="progress" style="height: 20px">
+              <div
+                class="progress-bar progress-bar-striped progress-bar-animated bg-info text-start fw-semibold"
+                role="progressbar"
+                aria-valuenow="60"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="width: 60%"
+              >
+                JavaScript
+              </div>
+            </div>
+            <div class="progress" style="height: 20px">
+              <div
+                class="progress-bar progress-bar-striped progress-bar-animated bg-info text-start fw-semibold"
+                role="progressbar"
+                aria-valuenow="30"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="width: 30%"
+              >
+                Bootstrap
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill skill-3">
+          <div class="vstack gap-3">
+            <h3>My Future Stack:</h3>
+            <div class="progress" style="height: 20px">
+              <div
+                class="progress-bar-future fw-semibold text-pre"
+                role="progressbar"
+                aria-valuenow="0"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                MongoDB
+              </div>
+            </div>
+            <div class="progress" style="height: 20px">
+              <div
+                class="progress-bar-future fw-semibold text-pre"
+                role="progressbar"
+                aria-valuenow="0"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                Express
+              </div>
+            </div>
+            <div class="progress" style="height: 20px">
+              <div
+                class="progress-bar-future fw-semibold text-pre"
+                role="progressbar"
+                aria-valuenow="0"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                React
+              </div>
+            </div>
+            <div class="progress" style="height: 20px">
+              <div
+                class="progress-bar-future fw-semibold text-pre"
+                role="progressbar"
+                aria-valuenow="0"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                Node
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer id="main-footer">Copyright &copy; Leah Selig 2022</footer>
+
+    <!--Bootstrap JS Link-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--My JS Link-->
+    <script src="/JS/main.js"></script>
+  </body>
+</html>
