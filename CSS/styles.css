@@ -160,6 +160,8 @@ h3.sm-heading {
 
 p {
   color: #000;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 a {
@@ -211,7 +213,6 @@ main#home h1 {
 
 .about-info .bio-image {
   grid-area: bioimage;
-  margin: auto;
   border-radius: 50%;
   border: #4dd8eb 3px solid;
 }
@@ -220,6 +221,7 @@ main#home h1 {
   grid-area: bio;
   font-size: 1.5rem;
   color: #000;
+  width: 800px;
 }
 
 .about-info .skill-1 {
@@ -368,7 +370,7 @@ main#home h1 {
     height: 150px;
   }
   .about-info {
-    grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
+    grid-template-areas: "bioimage" "bio" "skill-2" "skill-3" "skill-1";
     grid-template-columns: 1fr;
   }
   .projects {
