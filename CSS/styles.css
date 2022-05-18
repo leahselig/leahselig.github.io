@@ -141,7 +141,7 @@ h3,
 h6 {
   margin: 0;
   font-weight: 400;
-  color: #000;
+  color: rgb(95, 89, 89);
 }
 
 h1.lg-heading,
@@ -159,7 +159,7 @@ h3.sm-heading {
 }
 
 p {
-  color: #000;
+  color: rgb(95, 89, 89);
   font-size: 20px;
   line-height: 30px;
 }
